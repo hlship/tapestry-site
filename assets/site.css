@@ -2,12 +2,14 @@ body {
    padding-top: 50px;
 }
 
+/** Meant to be used with .alert, for the rounded look. */
 .quickstart-bar {
     background-color: #569d2f;
     color: white;
     text-align: center;
     padding: 10px;
     margin: 15px 0px;
+    text-shadow: none;
 }
 
 .quickstart-bar a {
