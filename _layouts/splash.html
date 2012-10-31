@@ -1,6 +1,38 @@
+<html>
+<head>
 {% include head.html %}
+<link rel="stylesheet" href="/assets/splash.css"/>
+</head>
+<body>
 {% include navbar.html %}
+
 <div class="container">
+<div class="row project-synopsis">
+      <img class="pull-left" src="/assets/tapestry-logo.png" alt="Tapestry Logo" class="media-object"/>
+      <div>Component oriented framework for creating dynamic, robust, highly scalable web applications in Java.</div>
+</div>
+
+<div class="row">
+  <div class="span4 feature">
+    <h3>Java Power</h3>
+    <p>Tapestry pages and components are simple Java POJOs, with easy access to all Java language features and the vast Java ecosystem. Thanks to Java's advanced concurrency API, Tapestry handles requests fast without sacrificing security or stability.</p>
+  </div>
+  <div class="span4 feature">
+    <h3>Scripting Ease</h3>
+    <p>
+      Tapestry features <em>live class reloading</em>: change your Java code, refresh the browser and see the changes... instantly! 
+Have your cake and eat it too: the speed and depth of Java, the agile development style of Ruby or Python.</p></div>
+  <div class="span4 feature">
+    <h3>Highly Productive</h3>
+<p>
+Simple POJO classes, streamlined templates, live class reloading, state-of-the-art exception reporting, first-class Ajax support, and a big library of 
+built-in components: Tapestry is designed from the ground up to give you great productivity.
+</p></div></div>
+
 {{ content }}
-<div>
+
 {% include tail.html %}
+
+</div>
+</body>
+</html>

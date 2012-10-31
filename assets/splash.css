@@ -1,0 +1,13 @@
+.project-synopsis {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.3em;
+    padding: 1em 1em 0 0;
+}
+
+.feature {
+    float: left:
+    margin: 0px 5px;
+    display: inline-block;
+}
