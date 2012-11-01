@@ -11,3 +11,56 @@
     margin: 0px 5px;
     display: inline-block;
 }
+
+.launch {
+   width: 200px;
+   float: left;
+   margin-left: 10px;
+   height: 200px;
+   position: relative;
+   border-left: 1px dotted black;
+   padding-left: 4px;
+}
+
+.launch:first-child {
+  margin-left: none;
+  border-left: none;
+  padding-left: none;
+}
+
+.launch h4 {
+  height: 43px;
+  padding-left: 46px;
+  background-repeat: none;
+  background-position: left top;
+  background-repeat: no-repeat;
+  margin-bottom: 8px;
+}
+
+.launch ul, .launch p {
+  font-size: 8pt;
+  padding: 0px 15px;
+}
+
+.launch-download {
+  background-image: url("download.png"); 
+}
+
+.launch-extensions {
+  background-image: url("extensions.png");
+}
+
+.launch-demos {
+  background-image: url("demos.png");
+}
+
+.launch-more {
+    font-variant: small-caps;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
