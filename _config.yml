@@ -3,3 +3,5 @@ paginate: 5
 bareurl: /
 url: http://tapestry.apache.org
 exclude: ["README.md"]
+
+t5version: "5.x.x"
