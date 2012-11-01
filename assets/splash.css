@@ -12,6 +12,18 @@
     display: inline-block;
 }
 
+.feature p {
+    text-align: justify;
+    font-size: 10pt;
+    font-family: 'Lucida Grande', verdana, arial, helvetica, sans-serif;
+    background-color: #EEE;
+    padding: 15px;
+    line-height: 1.3em;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+}
+
 .launch {
    width: 200px;
    float: left;
@@ -24,8 +36,8 @@
 }
 
 .launch:first-child {
-  margin-left: none;
   border-left: none;
+  padding-left: none;
 }
 
 .launch h4 {
