@@ -24,6 +24,64 @@
    border-radius: 4px;
 }
 
+.property-row {
+  clear: left;
+}
+
+.property {
+    float: left;
+    display: inline-block;
+    width: 325px;
+    margin-right: 10px;
+}
+
+.property p {
+    text-align: justify;
+    font-size: 10pt;
+}
+
+.property h3 {
+  font-family: 'Lucida Grande', verdana, arial, helvetica, sans-serif;
+  font-size: 16px;
+  height: 40px;
+  background-repeat: none;
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+
+h3.purejava {
+    background-image: url("chat.png");
+}
+
+h3.convention {
+    background-image: url("injection.png");
+}
+
+h3.productive {
+    background-image: url("refresh.png");
+}
+
+h3.scalable {
+    background-image: url("globe.png");
+}
+
+h3.exceptionreporting {
+    background-image: url("bug.png");
+}
+
+h3.testable {
+    background-image: url("checkmark.png");
+}
+
+h3.fast {
+    background-image: url("fast.png");
+}
+
+h3.modular {
+    background-image: url("plugin.png");
+}
+
 .launch {
    width: 200px;
    float: left;
