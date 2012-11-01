@@ -10,10 +10,11 @@ body {
     padding: 4px;
     line-height: 15px;
     font-size: 10pt;
+    margin-bottom: 4px;
 }
 
 .quickstart-bar p {
- margin: 0px;
+   margin: 0px;
 }
 
 .curved-edges {

@@ -1,7 +1,9 @@
 <html>
 <head>
+<link href="http://widgets.twimg.com/j/2/widget.css" rel="stylesheet" type="text/css">
 {% include head.html %}
 <link rel="stylesheet" href="/assets/splash.css"/>
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 </head>
 <body>
 {% include navbar.html %}
@@ -64,12 +66,48 @@ built-in components: Tapestry is designed from the ground up to give you great p
         <a href="/demos.html">more demos</a>
       </div>
     </div>
+
+<div class="twitter-container pull-right">
+
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: 'tapestry5',
+  interval: 6000,
+  title: 'Mentions',
+  subject: 'tapestry5',
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#569D2F',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+</div>
 </div>
 
+{% include tail.html %}
 
 {{ content }}
 
-{% include tail.html %}
 
 </div>
 </body>
