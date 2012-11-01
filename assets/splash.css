@@ -27,11 +27,9 @@
 .launch {
    width: 200px;
    float: left;
-   margin-left: 10px;
    height: 200px;
    position: relative;
-   left: 10px;
-   border-left: 1px dotted black;
+  border-left: 1px dotted black;
    padding-left: 4px;
 }
 
