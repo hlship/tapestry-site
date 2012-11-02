@@ -6,7 +6,7 @@ Currently, we are in the process of just setting things up.
 
 ## Overview
 
-The site is built using [Jekyll](http://http://jekyllrb.com/), a Ruby program for building static web sites.  You need to have Ruby, the Jeykll gem, and a few other things installed.
+The site is built using [Jekyll](http://jekyllrb.com/), a Ruby program for building static web sites.  You need to have Ruby, the Jeykll gem, and a few other things installed.
 Once installed, the command `jekyll` command will build an output directory, `_site`.
 
 More commonly, you will execute `jekyll --server --auto` and open port <http://localhost:4000/>.  You can then change any files and refresh the browser to see the result.
